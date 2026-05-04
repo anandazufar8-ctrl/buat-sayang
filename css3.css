@@ -1,0 +1,18 @@
+body {
+      background-image: url('jj pakyu.JPEG');
+      background-size: 80% 80%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+h1 {
+     color: #800000;
+     font-family: 'Trebuchet MS', sans-serif;
+     font-size: 60px;
+     text-align: center;
+     text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+     letter-spacing: 2px;
+     font-weight: bold;
+     margin-top: 50px;
+}

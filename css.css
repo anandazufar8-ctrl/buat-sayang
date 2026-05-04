@@ -1,0 +1,60 @@
+body {
+     background-image: url('background-awal.JPEG');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     text-align: center;
+}
+
+
+h1 {
+     color: #800000;
+     font-family: 'Trebuchet MS', sans-serif;
+     font-size: 60px;
+     text-align: center;
+     text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+     letter-spacing: 2px;
+     font-weight: bold;
+     margin-top: 50px;
+}
+
+
+.p1 {
+     color: #FFD1DC;
+     font-size: 20px;
+     text-align: center;
+     width: 300px;
+     padding: 20px;
+     margin: 15px auto; 
+     border: 2px solid white;
+}
+
+.p2 {
+     color: #FFD1DC;
+     font-size: 20px;
+     text-align: center;
+     width: 300px;
+     padding: 20px;
+     margin: 15px auto;
+     border: 2px solid white;
+}
+
+
+.p3 {
+     color: #FFD1DC;
+     font-size: 20px;
+     text-align: center;
+     width: 300px;
+     padding: 20px;
+     margin: 15px auto;
+     border: 2px solid black;
+}
+
+.p1:hover, .p2:hover, .p3:hover {
+    background-color: rgba(255, 209, 220, 0.5); /* Pink transparan */
+    color: #800000; /* Berubah jadi Maroon */
+    transform: scale(1.1); /* Sedikit membesar */
+    transition: 0.3s; /* Biar perubahannya halus, nggak kaget */
+    cursor: pointer;
+}
